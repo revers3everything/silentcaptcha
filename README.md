@@ -2,6 +2,9 @@
 
 Este repositorio contiene un script automatizado que intenta ingresar credenciales a un sitio web protegido con reCAPTCHA utilizando **Selenium** y la extensión **noCaptcha**. Es ideal para fines educativos y de investigación en entornos controlados.
 
+![silentCaptcha](https://github.com/user-attachments/assets/79502eb7-6e91-4279-a351-220646bcfec4)
+
+
 ## Características
 
 - Automatización del ingreso de credenciales en sitios web con CAPTCHA.
