@@ -1,6 +1,6 @@
 # Selenium CAPTCHA Bypass Script
 
-Este repositorio contiene un script automatizado que intenta ingresar credenciales a un sitio web protegido con reCAPTCHA utilizando **Selenium** y la extensión **noCaptcha**. Es ideal para fines educativos y de investigación en entornos controlados.
+Es una herramienta que automatiza la soluciòn de captchas para realizar fuerza bruta a páginas de incio de sesiòn protegidas por captchas. Se resuelve el catpcha de sitios web protegidos con reCAPTCHA, para lo cual se usa **Selenium** y la extensión **noCaptcha**. La herramienta resuelve los captchas de forma automática. Es ideal para fines educativos y de investigación en entornos controlados para poder ejecutar ataques de fuerza bruta y bypassear el control del captcha ya que el mismo se automatiza con este bot.
 
 ![silentCaptcha](https://github.com/user-attachments/assets/79502eb7-6e91-4279-a351-220646bcfec4)
 
