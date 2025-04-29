@@ -4,6 +4,9 @@ It is a tool that automates the solving of CAPTCHAs to perform brute-force attac
 
 ![silentCaptcha](https://github.com/user-attachments/assets/79502eb7-6e91-4279-a351-220646bcfec4)
 
+See the tool in action: https://youtu.be/KxnmY7Hw24k
+![silentcatpcha2](https://github.com/user-attachments/assets/7be15c7a-5d93-47b7-957a-62d827b5c763)
+
 
 ## Features
 
@@ -18,7 +21,7 @@ Before running the script, make sure you meet the following requirements:
 - **Python**: Version 3.12.6 or higher.
 - **Geckodriver**: Driver required to control Firefox with Selenium.
 - **Selenium**: Library for automating web browsers.
-- **noCaptcha Extension**: Extension used to bypass CAPTCHA.
+- **noCaptcha Extension**: Extension used to bypass CAPTCHA. (The extension is in the repo, but if you want to download the latest check https://www.youtube.com/watch?v=-Lz-acPIrek)
 
 ## Installation
 
