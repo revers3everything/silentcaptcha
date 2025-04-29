@@ -72,4 +72,5 @@ If you have suggestions or improvements, feel free to open a pull request or cre
 
 ## Authors
 
-Danilo Erazo @revers3vrything y Anthony Lopez @sk8ware
+- Danilo Erazo @revers3vrything
+- Anthony Lopez @sk8ware
