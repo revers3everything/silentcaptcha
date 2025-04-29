@@ -69,3 +69,7 @@ python3 NoCaptcha.py https://web-with-reCaptcha/ usuarios.txt contraseñas.txt
 ## Contributions
 
 If you have suggestions or improvements, feel free to open a pull request or create an issue in this repository.
+
+## Authors
+
+Danilo Erazo @revers3vrything y Anthony Lopez @sk8ware
