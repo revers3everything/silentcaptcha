@@ -20,7 +20,7 @@ Before running the script, make sure you meet the following requirements:
 - **Selenium**: Library for automating web browsers.
 - **noCaptcha Extension**: Extension used to bypass CAPTCHA.
 
-## Instalation
+## Installation
 
 Follow the steps below to install the dependencies and set up the environment.
 
