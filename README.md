@@ -1,69 +1,68 @@
 # SilentCaptcha Tool
 
-Es una herramienta que automatiza la soluciòn de captchas para realizar fuerza bruta a páginas de incio de sesiòn protegidas por captchas. Se resuelve el catpcha de sitios web protegidos con reCAPTCHA, para lo cual se usa **Selenium** y la extensión **noCaptcha**. La herramienta resuelve los captchas de forma automática. Es ideal para fines educativos y de investigación en entornos controlados para poder ejecutar ataques de fuerza bruta y bypassear el control del captcha ya que el mismo se automatiza con este bot.
+It is a tool that automates the solving of CAPTCHAs to perform brute-force attacks on login pages protected by CAPTCHAs. It solves CAPTCHAs on websites protected with reCAPTCHA, using Selenium and the noCaptcha extension. The tool automatically solves the CAPTCHAs. It is ideal for educational and research purposes in controlled environments, enabling brute-force attacks and bypassing CAPTCHA protection since the solving process is automated with this bot.
 
 ![silentCaptcha](https://github.com/user-attachments/assets/79502eb7-6e91-4279-a351-220646bcfec4)
 
 
-## Características
+## Features
 
-- Automatización del ingreso de credenciales en sitios web con CAPTCHA.
-- Uso de Selenium para la interacción con el navegador.
-- Bypass de reCAPTCHA utilizando la extensión noCaptcha.
+- Automation of credential submission on websites with CAPTCHA protection.
+- Use of Selenium for browser interaction.
+- reCAPTCHA bypass using the noCaptcha extension.
 
-## Requisitos
+## Requirements
 
-Antes de ejecutar el script, asegúrate de cumplir con los siguientes requisitos:
+Before running the script, make sure you meet the following requirements:
 
-- **Python**: Versión 3.12.6 o superior.
-- **Geckodriver**: Driver necesario para controlar Firefox con Selenium.
-- **Selenium**: Librería para la automatización de navegadores web.
-- **Extensión noCaptcha**: Extensión utilizada para el bypass de CAPTCHA.
+- **Python**: Version 3.12.6 or higher.
+- **Geckodriver**: Driver required to control Firefox with Selenium.
+- **Selenium**: Library for automating web browsers.
+- **noCaptcha Extension**: Extension used to bypass CAPTCHA.
 
-## Instalación
+## Instalation
 
-Sigue los pasos a continuación para instalar las dependencias y configurar el entorno.
+Follow the steps below to install the dependencies and set up the environment.
 
-### 1. Clonar el repositorio
+### 1. Clone the repository
 
-Clona este repositorio en tu máquina local:
+Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/revers3everything/silentcaptcha
+git clone https://github.com/revers3everything/silentcaptcha.git
 cd silentcaptcha
 ```
 
-### 2. Instalar dependencias
+### 2. Install dependencies
 
-Ejecuta el script `Install.sh` para instalar automáticamente todas las dependencias necesarias, activar el entorno virtual, e instalar Selenium:
+Run the `Install.sh` script to automatically install all necessary dependencies, activate the virtual environment, and install Selenium.
 
 ```bash
 source Install.sh
 ```
+This script will:
+- Install `python3-venv` if it is not already present.
+- Create and activate a virtual environment.
+- Install `selenium` within the virtual environment.
+- Verify the installation of **Geckodriver**.
 
-Este script:
-- Instalará `python3-venv` si no está presente.
-- Creará y activará un entorno virtual.
-- Instalará `selenium` dentro del entorno virtual.
-- Verificará la instalación de **Geckodriver**.
+### 3. "Run the script"
 
-### 3. Ejecutar el script
-
-Una vez que el entorno esté configurado, ejecuta el script `NoCaptcha.py` con los parámetros necesarios:
+Once the environment is set up, run the `NoCaptcha.py` script with the necessary parameters:
 
 ```bash
-python3 NoCaptcha.py https://web-con-Captcha/ usuarios.txt contraseñas.txt
+python3 NoCaptcha.py https://web-with-reCaptcha/ usuarios.txt contraseñas.txt
 ```
 
-- **URL del sitio web con CAPTCHA**: El primer argumento es la URL del sitio web donde deseas intentar el bypass.
-- **Archivo de usuarios**: El segundo argumento es el archivo que contiene una lista de nombres de usuario.
-- **Archivo de contraseñas**: El tercer argumento es el archivo que contiene una lista de contraseñas.
+- **Website URL with CAPTCHA**: The first argument is the URL of the website where you want to attempt the bypass.
+- **Usernames file**: The second argument is the file that contains a list of usernames.
+- **Password file**: The third argument is the file that contains a list of passwords.
 
-## Notas importantes
+## Important notes
 
-- **Uso educativo**: Este script está destinado para fines educativos y de investigación en entornos controlados. No debe ser utilizado en sitios web donde no tengas permiso explícito para realizar pruebas.
-- **Actualizaciones**: Asegúrate de tener las versiones más recientes de **Selenium** y **Geckodriver** para evitar errores de compatibilidad.
+- **Educational use**: This script is intended for educational and research purposes in controlled environments. It should not be used on websites where you do not have explicit permission to conduct testing.
+- **Updates**: Make sure to have the latest versions of Selenium and Geckodriver to avoid compatibility issues.
 
-## Contribuciones
+## Contributions
 
-Si tienes sugerencias o mejoras, no dudes en abrir un _pull request_ o crear un _issue_ en este repositorio.
+If you have suggestions or improvements, feel free to open a pull request or create an issue in this repository.
