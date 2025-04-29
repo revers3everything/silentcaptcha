@@ -74,4 +74,4 @@ If you have suggestions or improvements, feel free to open a pull request or cre
 
 - Principal Author: Anthony Lopez @sk8ware
 - Danilo Erazo @revers3vrything
-- This tool was first presented in 2024 at the '8.8 Computer Security Conference' in October, Ecuador.
+- This tool was first presented in 2024 at the 8.8 Computer Security Conference in October, Ecuador.
