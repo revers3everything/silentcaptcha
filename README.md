@@ -49,7 +49,7 @@ This script will:
 - Install `selenium` within the virtual environment.
 - Verify the installation of **Geckodriver**.
 
-### 3. "Run the script"
+### 3. Run the script
 
 Once the environment is set up, run the `NoCaptcha.py` script with the necessary parameters:
 
