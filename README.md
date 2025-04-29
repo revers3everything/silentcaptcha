@@ -1,6 +1,6 @@
 # SilentCaptcha Tool
 
-It is a tool that automates the solving of CAPTCHAs to perform brute-force attacks on login pages protected by CAPTCHAs. It solves CAPTCHAs on websites protected with reCAPTCHA, using Selenium and the noCaptcha extension. The tool automatically solves the CAPTCHAs. It is ideal for educational and research purposes in controlled environments, enabling brute-force attacks and bypassing CAPTCHA protection since the solving process is automated with this bot.
+It is a tool that automates the solving of CAPTCHAs to perform brute-force attacks on login pages. It solves CAPTCHAs on websites protected with Google reCAPTCHA, using Selenium and the noCaptcha extension. It is ideal for educational and research purposes in controlled environments, enabling brute-force attacks and bypassing CAPTCHA protection since the solving process is automated with this bot.
 
 ![silentCaptcha](https://github.com/user-attachments/assets/79502eb7-6e91-4279-a351-220646bcfec4)
 
