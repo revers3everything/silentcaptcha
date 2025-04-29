@@ -54,7 +54,7 @@ This script will:
 Once the environment is set up, run the `NoCaptcha.py` script with the necessary parameters:
 
 ```bash
-python3 NoCaptcha.py https://web-with-reCaptcha/ usuarios.txt contraseñas.txt
+python3 captcha.py https://web-with-reCaptcha/ usuarios.txt contraseñas.txt
 ```
 
 - **Website URL with CAPTCHA**: The first argument is the URL of the website where you want to attempt the bypass.
