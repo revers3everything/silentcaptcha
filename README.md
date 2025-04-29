@@ -21,7 +21,7 @@ Before running the script, make sure you meet the following requirements:
 - **Python**: Version 3.12.6 or higher.
 - **Geckodriver**: Driver required to control Firefox with Selenium.
 - **Selenium**: Library for automating web browsers.
-- **noCaptcha Extension**: Extension used to bypass CAPTCHA. (The extension is in the repo, but if you want to download the latest check https://www.youtube.com/watch?v=-Lz-acPIrek)
+- **noCaptcha Extension**: Extension used to bypass CAPTCHA. (The extension is in the repo, but if you want to download the latest, check https://www.youtube.com/watch?v=-Lz-acPIrek)
 
 ## Installation
 
